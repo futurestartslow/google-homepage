@@ -1,0 +1,58 @@
+.wrap {
+  width: 700px;
+  margin: 190px auto auto 750px;
+  position: absolute;
+  clear:both;
+}
+
+.navbar {
+  float: right;
+  background: yellow;
+  margin-right: 21px;
+  margin-top: -9px;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style: none;
+
+}
+
+
+.navbar li a {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  font-size: 13px;
+}
+
+.apps_sprite {
+    background: url('../images/navbar.png') no-repeat -139px -45px;
+  	width: 16px;
+  	height: 16px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+  }
+
+
+.account_sprite {
+  background: url('../images/photo.jpg');
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+
+}
+
+.notifications_sprite {
+    background: url('../images/navbar.png') no-repeat -194px -21px;
+    margin: 5px;
+    margin-bottom: 6px;
+    margin-right: 14px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 100%;
+
+
+}
